@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp" android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/app_name" android:textSize="26sp" android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <Button android:id="@+id/btnScan" style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" android:text="@string/btn_scan" />
+
+        <Button android:id="@+id/btnImg2Pdf" style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" android:text="@string/btn_img2pdf" />
+
+        <Button android:id="@+id/btnMerge" style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" android:text="@string/btn_merge" />
+
+        <Button android:id="@+id/btnExtract" style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" android:text="@string/btn_extract" />
+
+        <Button android:id="@+id/btnEdit" style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" android:text="@string/btn_edit" />
+
+        <Button android:id="@+id/btnPdf2Img" style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" android:text="@string/btn_pdf2img" />
+
+        <Button android:id="@+id/btnPdf2Txt" style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" android:text="@string/btn_pdf2txt" />
+    </LinearLayout>
+</ScrollView>
