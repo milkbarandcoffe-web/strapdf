@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">StraPdfByDz</string>
+    <string name="btn_scan">Scansiona → PDF ricercabile</string>
+    <string name="btn_img2pdf">Immagini → PDF</string>
+    <string name="btn_merge">Unisci PDF</string>
+    <string name="btn_extract">Estrai pagine da PDF</string>
+    <string name="btn_edit">Modifica PDF (testo/evidenzia/firma)</string>
+    <string name="btn_pdf2img">PDF → Immagini</string>
+    <string name="btn_pdf2txt">PDF → Testo (OCR se scansione)</string>
+    <string name="working">Elaborazione in corso…</string>
+    <string name="done">Fatto</string>
+    <string name="error">Errore</string>
+    <string name="scan_shot">SCATTA</string>
+    <string name="scan_done">FINE</string>
+    <string name="pages">Pagine</string>
+    <string name="save_selection">SALVA PAGINE SELEZIONATE</string>
+    <string name="mode_text">Testo</string>
+    <string name="mode_hl">Evidenzia</string>
+    <string name="mode_ink">Firma</string>
+    <string name="undo">Annulla</string>
+    <string name="save">SALVA</string>
+    <string name="prev">◀</string>
+    <string name="next">▶</string>
+    <string name="ocr_check">Rendi ricercabile (OCR)</string>
+</resources>
